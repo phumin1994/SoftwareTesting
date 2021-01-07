@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Student Registration Form</title>
+</head>
+<body>
+<form action="studentRegistration" method="post">
+
+<table cellpadding="1" width="70%" bgcolor="99FFFF" align="center"
+cellspacing="1">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Student Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>First Name</td>
+<td><input type=text name=firstname required="required" pattern="^[a-zA-Z ]*$" id="firstname" size="30"></td>
+</tr>
+
+<tr>
+<td>Last Name</td>
+<td><input type=text name=lastname required="required" pattern="^[a-zA-Z ]*$" id="lastname" size="30"></td>
+</tr>
+
+<tr>
+<td>Personal Identification Code</td>
+<td><input type=text pattern="[0-9]{11}" required="required" name=personalcode id="personalcode" size="11" title="Personal Identification Code should be in numbers with length 11"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="gender" value="male" id="male" size="10" required>Male
+<input type="radio" name="gender" value="Female" id="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>Address</td>
+<td><input type=text name=address required="required" id="address" size="30"></td>
+</tr>
+
+<tr>
+<td>Phone Number</td>
+<td><input type=text name=phonenumber required="required"  pattern="((86|\+3706) \d{3} \d{4})|((86|\+3706)\d{3}\d{4})" id="phonenumber" size="30" title="Please Enter Lithuania Phone Number"></td>
+</tr>
+
+<tr>
+<td>Study Program</td>
+<td><select required id="studyprogram" name="studyprogram" title="Please Select One of Study Program">
+<option value="" selected>select..</option>
+<option value="Computer Engineering">Computer Engineering</option>
+<option value="Computer Systems">Computer Systems</option>
+<option value="Telecommunications Systems">Telecommunications Systems</option>
+<option value="Electronics Engineering">Electronics Engineering</option>
+<option value="Information Systems">Information Systems</option>
+<option value="Software Engineering">Software Engineering</option>
+</select></td>
+</tr>
+
+<tr>
+<td>Form of Study</td>
+<td><input type="radio" name="formofstudy" id="regular" value="regular" required>Regular
+<input type="radio" name="formofstudy" id="online" value="online">Online</td>
+</tr>
+<tr>
+<td ><input style="width:100%" id="submit" type="submit" value="Submit"/>  </td>
+</tr>
+</table>
+</form>
+</body>
+</html>

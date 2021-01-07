@@ -1,0 +1,237 @@
+{
+  "id": "2e48aaf6-7f77-450b-a2c7-42d53b251518",
+  "version": "2.0",
+  "name": "StudentRegistrationTest",
+  "url": "http://localhost:8443/StudentRegistration/",
+  "tests": [{
+    "id": "77a17ad7-aa31-4425-8906-fccf7b0336e5",
+    "name": "Registration Success Flow",
+    "commands": [{
+      "id": "11d8fe50-3765-4765-ad44-731b9c2ec48f",
+      "comment": "",
+      "command": "open",
+      "target": "http://localhost:8443/StudentRegistration/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c25300d-8470-4924-966d-f59539ec2d64",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c6f22b4a-db85-488d-a6b1-0c4057b514b0",
+      "comment": "",
+      "command": "click",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89c4524f-f731-4a7d-b402-c7e3ac702be3",
+      "comment": "",
+      "command": "type",
+      "target": "id=firstname",
+      "targets": [
+        ["id=firstname", "id"],
+        ["name=firstname", "name"],
+        ["css=#firstname", "css:finder"],
+        ["xpath=//input[@id='firstname']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Messi"
+    }, {
+      "id": "fbed3907-98b0-482b-bc84-a2a9b088faa8",
+      "comment": "",
+      "command": "click",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6e228e6a-ebd9-4620-adee-1274cedec5ec",
+      "comment": "",
+      "command": "type",
+      "target": "id=lastname",
+      "targets": [
+        ["id=lastname", "id"],
+        ["name=lastname", "name"],
+        ["css=#lastname", "css:finder"],
+        ["xpath=//input[@id='lastname']", "xpath:attributes"],
+        ["xpath=//tr[3]/td[2]/input", "xpath:position"]
+      ],
+      "value": "Football"
+    }, {
+      "id": "ba7b6629-5680-4659-9fc1-eac261773dcb",
+      "comment": "",
+      "command": "click",
+      "target": "id=personalcode",
+      "targets": [
+        ["id=personalcode", "id"],
+        ["name=personalcode", "name"],
+        ["css=#personalcode", "css:finder"],
+        ["xpath=//input[@id='personalcode']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bd54c75f-2ee6-483a-885f-9b5572c2c3f0",
+      "comment": "",
+      "command": "type",
+      "target": "id=personalcode",
+      "targets": [
+        ["id=personalcode", "id"],
+        ["name=personalcode", "name"],
+        ["css=#personalcode", "css:finder"],
+        ["xpath=//input[@id='personalcode']", "xpath:attributes"],
+        ["xpath=//tr[4]/td[2]/input", "xpath:position"]
+      ],
+      "value": "38703181745"
+    }, {
+      "id": "f28dafd7-9c69-4122-9e0b-7000dfb2352e",
+      "comment": "",
+      "command": "click",
+      "target": "id=male",
+      "targets": [
+        ["id=male", "id"],
+        ["name=gender", "name"],
+        ["css=#male", "css:finder"],
+        ["xpath=//input[@id='male']", "xpath:attributes"],
+        ["xpath=//tr[5]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ea54bed-e673-41e7-a020-b9474b3ece12",
+      "comment": "",
+      "command": "click",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["name=address", "name"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bfa1b04e-7eff-4430-b6da-1875c653fd14",
+      "comment": "",
+      "command": "type",
+      "target": "id=address",
+      "targets": [
+        ["id=address", "id"],
+        ["name=address", "name"],
+        ["css=#address", "css:finder"],
+        ["xpath=//input[@id='address']", "xpath:attributes"],
+        ["xpath=//tr[6]/td[2]/input", "xpath:position"]
+      ],
+      "value": "My Comp Address"
+    }, {
+      "id": "8736728e-8a6a-4093-a54f-fee44ca80e83",
+      "comment": "",
+      "command": "click",
+      "target": "id=phonenumber",
+      "targets": [
+        ["id=phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#phonenumber", "css:finder"],
+        ["xpath=//input[@id='phonenumber']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7cad59c2-f6e4-4bed-807e-0f37d6ce10e3",
+      "comment": "",
+      "command": "type",
+      "target": "id=phonenumber",
+      "targets": [
+        ["id=phonenumber", "id"],
+        ["name=phonenumber", "name"],
+        ["css=#phonenumber", "css:finder"],
+        ["xpath=//input[@id='phonenumber']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "+37069795721"
+    }, {
+      "id": "425f76f4-874e-468b-ac0b-c8528d994876",
+      "comment": "",
+      "command": "click",
+      "target": "id=studyprogram",
+      "targets": [
+        ["id=studyprogram", "id"],
+        ["name=studyprogram", "name"],
+        ["css=#studyprogram", "css:finder"],
+        ["xpath=//select[@id='studyprogram']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'select..\nComputer Engineering\nComputer Systems\nTelecommunications Systems\nElectronics Engineering\nInformation Systems\nSoftware Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc9a6462-3e0b-4de0-b97c-cbe12696734e",
+      "comment": "",
+      "command": "select",
+      "target": "id=studyprogram",
+      "targets": [],
+      "value": "label=Computer Engineering"
+    }, {
+      "id": "b5a30d78-4f4d-4570-b745-61e598df5be5",
+      "comment": "",
+      "command": "click",
+      "target": "id=studyprogram",
+      "targets": [
+        ["id=studyprogram", "id"],
+        ["name=studyprogram", "name"],
+        ["css=#studyprogram", "css:finder"],
+        ["xpath=//select[@id='studyprogram']", "xpath:attributes"],
+        ["xpath=//select", "xpath:position"],
+        ["xpath=//select[contains(.,'select..\nComputer Engineering\nComputer Systems\nTelecommunications Systems\nElectronics Engineering\nInformation Systems\nSoftware Engineering')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "47804f14-8ce9-4fdb-8713-9576fdb9233f",
+      "comment": "",
+      "command": "click",
+      "target": "id=online",
+      "targets": [
+        ["id=online", "id"],
+        ["css=#online", "css:finder"],
+        ["xpath=//input[@id='online']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "af5723fb-f94c-49b7-910f-4b571b9a0f11",
+      "comment": "",
+      "command": "click",
+      "target": "id=submit",
+      "targets": [
+        ["id=submit", "id"],
+        ["css=#submit", "css:finder"],
+        ["xpath=//input[@id='submit']", "xpath:attributes"],
+        ["xpath=//tr[10]/td/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "3be81a7c-bd2c-4f4d-89bb-15b5064d573a",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["77a17ad7-aa31-4425-8906-fccf7b0336e5"]
+  }],
+  "urls": ["http://localhost:8443/StudentRegistration/"],
+  "plugins": []
+}
